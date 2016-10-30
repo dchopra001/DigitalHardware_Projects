@@ -1,0 +1,83 @@
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)
+	------                  ----------                            -----------------
+	ClockDomain0            i_clock                               4.977 (200.924 MHz)  
+-- Device: Altera - Stratix II : EP2S15F484C : 5
+-- CTE report summary..
+                  CTE Report Summary
+
+End CTE Report Summary ..... CPU Time Used: 0 sec.
+
+Setup Slack Path Summary
+
+               Data                                                            Data
+       Setup   Path   Source    Dest.                                          End 
+Index  Slack   Delay   Clock    Clock    Data Start Pin      Data End Pin      Edge
+-----  ------  -----  -------  -------  ----------------  -------------------  ----
+  1    -2.977  4.770  i_clock  i_clock  reg_r16(0)/clk    reg_x_r11(0)/datain  Rise
+  2    -2.977  4.770  i_clock  i_clock  reg_x_r11(1)/clk  reg_r18(0)/datain    Rise
+  3    -2.977  4.770  i_clock  i_clock  reg_x_r3(1)/clk   reg_r15(0)/datain    Rise
+  4    -2.977  4.770  i_clock  i_clock  reg_r16(1)/clk    reg_x_r11(0)/datain  Rise
+  5    -2.977  4.770  i_clock  i_clock  reg_x_r3(0)/clk   reg_r15(0)/datain    Rise
+  6    -2.977  4.770  i_clock  i_clock  reg_x_r11(0)/clk  reg_r18(0)/datain    Rise
+  7    -2.819  4.612  i_clock  i_clock  reg_b_d1(0)/clk   reg_r15(0)/datain    Rise
+  8    -2.819  4.612  i_clock  i_clock  reg_r15(0)/clk    reg_r18(0)/datain    Rise
+  9    -2.819  4.612  i_clock  i_clock  reg_r11(0)/clk    reg_x_r11(0)/datain  Rise
+ 10    -2.684  4.477  i_clock  i_clock  reg_r15(1)/clk    reg_r18(0)/datain    Rise
+
+-- Device: Altera - Stratix II : EP2S15F484C : 5
+-- CTE report summary..
+                  CTE Report Summary
+
+Analyzing setup constraint violations 
+End CTE Report Summary ..... CPU Time Used: 0 sec.
+-- Device: Altera - Stratix II : EP2S15F484C : 5
+-- CTE report timing..
+                  CTE Path Report
+
+
+Critical path #1, (path slack = -2.977):
+
+SOURCE CLOCK: name: i_clock period: 2.000000
+     Times are relative to the 1st rising edge
+  DEST CLOCK: name: i_clock period: 2.000000
+     Times are relative to the 2nd rising edge
+
+NAME                     GATE                     DELAY    ARRIVAL DIR  FANOUT
+reg_r16(0)/clk        stratixii_lcell_ff                   0.000   up
+reg_r16(0)/regout     stratixii_lcell_ff         0.000     0.000   up
+r16(0)                (net)                      0.300                   2
+ix33057z37206/datac   stratixii_lcell_comb                 0.300   up
+ix33057z37206/combout stratixii_lcell_comb       0.364     0.664   up
+nx33057z6             (net)                      0.290                   1
+ix33057z37205/datab   stratixii_lcell_comb                 0.954   up
+ix33057z37205/combout stratixii_lcell_comb       0.478     1.432   up
+nx33057z5             (net)                      0.290                   1
+ix33057z37204/datab   stratixii_lcell_comb                 1.722   up
+ix33057z37204/combout stratixii_lcell_comb       0.478     2.200   up
+nx33057z4             (net)                      0.290                   1
+ix33057z37203/datab   stratixii_lcell_comb                 2.490   up
+ix33057z37203/combout stratixii_lcell_comb       0.478     2.968   up
+nx33057z3             (net)                      0.290                   1
+ix33057z37202/datab   stratixii_lcell_comb                 3.258   up
+ix33057z37202/combout stratixii_lcell_comb       0.478     3.736   up
+nx33057z2             (net)                      0.380                  12
+ix33057z37201/datad   stratixii_lcell_comb                 4.116   up
+ix33057z37201/combout stratixii_lcell_comb       0.364     4.480   up
+nx33057z1             (net)                      0.290                   1
+reg_x_r11(0)/datain   stratixii_lcell_ff                   4.770   up
+
+		Initial edge separation:      2.000
+		Source clock delay:      -    1.168
+		Dest clock delay:        +    1.168
+		                        -----------
+		Edge separation:              2.000
+		Setup constraint:        -    0.207
+		                        -----------
+		Data required time:           1.793
+		Data arrival time:       -    4.770   ( 55.35% cell delay, 44.65% net delay )
+		                        -----------
+		Slack (VIOLATED):            -2.977
+
+End CTE Analysis ..... CPU Time Used: 0 sec.

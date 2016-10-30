@@ -1,0 +1,190 @@
+# Info: [9566]: Logging session transcript to file /home/dchopra/proj_two/precision.log
+//  Precision RTL Synthesis 2008a.47 (Production Release) Tue Dec  9 03:06:25 PST 2008
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2008, All Rights Reserved.
+//             Portions copyright 1991-2004 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux dchopra@ecelinux5.uwaterloo.ca #1 SMP Tue Jun 10 17:49:56 EDT 2014 2.6.18-371.9.1.el5 x86_64
+//  
+//  Start time Thu Jul 24 07:12:06 2014
+# -------------------------------------------------
+# Info: [9566]: Logging session transcript to file /home/dchopra/proj_two/precision.log
+# Info: [9575]: Results directory: /home/dchopra/proj_two/uw_tmp/
+# Info: [9569]: Moving session transcript to file /home/dchopra/proj_two/uw_tmp/precision.log
+# Info: [15291]:  Setting up the design to use synthesis library "stratixii.syn"
+# Info: [566]: The global max fanout is currently set to 1000 for Altera - Stratix II.
+# Info:  Setting Part to: "EP2S15F484C"
+# Info:  Setting Process to: "5"
+# Info: USING DESIGN ARCH
+# Info: [3021]: Reading file: /opt/Precision_Synthesis_2008a.47/Mgc_home/pkgs/psr/techlibs/stratixii.syn.
+# Info: [618]: Loading library initialization file /opt/Precision_Synthesis_2008a.47/Mgc_home/pkgs/psr/userware/armstrong_rename.tcl
+# Info: [40000]: vhdlorder, Release 2008a.22
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2008a.22
+# Info: [42502]: Analyzing input file "/home/dchopra/proj_two/mem.vhd" ...
+# Info: [42502]: Analyzing input file "/home/dchopra/proj_two/kirsch_synth_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "/home/dchopra/proj_two/kirsch.vhd" ...
+# Info: [641]: Current working directory: /home/dchopra/proj_two/uw_tmp/.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2008a.22
+# Info: [40000]: Last compiled on Nov 27 2008 12:40:04
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2008a.22
+# Info: [40000]: Last compiled on Nov 27 2008 12:46:53
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.kirsch(main): Pre-processing...
+# Info: [44506]: Module work.mem(main){generic map (data_width => 8 addr_width => 8)}: Pre-processing...
+# Info: [45251]: Built-in hardware memory core inferred for variable ': mem.mem depth = 256, width = 8'.
+# Warning: [45729]: "/home/dchopra/proj_two/kirsch.vhd", line 21: Input port debug_key has never been used.
+# Warning: [45729]: "/home/dchopra/proj_two/kirsch.vhd", line 22: Input port debug_switch has never been used.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 23: Output port debug_led_red has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 24: Output port debug_led_grn has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 25: Output port debug_num_0 has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 26: Output port debug_num_1 has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 27: Output port debug_num_2 has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 28: Output port debug_num_3 has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 29: Output port debug_num_4 has never been assigned a value.
+# Warning: [45731]: "/home/dchopra/proj_two/kirsch.vhd", line 30: Output port debug_num_5 has never been assigned a value.
+# Warning: [45729]: "/home/dchopra/proj_two/kirsch.vhd", line 47: signal s1[0] has never been used.
+# Warning: [45729]: "/home/dchopra/proj_two/kirsch.vhd", line 47: signal s2[0] has never been used.
+# Warning: [45729]: "/home/dchopra/proj_two/kirsch.vhd", line 53: signal r17[6:0] has never been used.
+# Info: [44508]: Module work.mem(main){generic map (data_width => 8 addr_width => 8)}: Compiling...
+# Info: [44523]: Root Module work.kirsch(main): Compiling...
+# Info: [44812]: "/home/dchopra/proj_two/kirsch.vhd", line 151: Sharing register stage1_eSe[2] with stage1_eSe[0]
+# Info: [44838]: "/home/dchopra/proj_two/kirsch.vhd", line 103: Macro Modgen_Counter "counter_up_sclear_clock_clk_en_0_8" inferred for node "col".
+# Info: [44838]: "/home/dchopra/proj_two/kirsch.vhd", line 125: Macro Modgen_Counter "counter_up_sclear_clock_cnt_en_0_8" inferred for node "row".
+# Warning: [45733]: "/home/dchopra/proj_two/kirsch.vhd", line 151: Optimizing state bit(s) stage1_wNw[1] to constant 0
+# Warning: [45733]: "/home/dchopra/proj_two/kirsch.vhd", line 151: Optimizing state bit(s) stage1_nNe[0] to constant 0
+# Warning: [45733]: "/home/dchopra/proj_two/kirsch.vhd", line 151: Optimizing state bit(s) stage1_nNe[1] to constant 1
+# Warning: [45733]: "/home/dchopra/proj_two/kirsch.vhd", line 151: Optimizing state bit(s) stage1_eSe[1] to constant 0
+# Warning: [45733]: "/home/dchopra/proj_two/kirsch.vhd", line 151: Optimizing state bit(s) stage1_sSw[1:0] to constant 1
+# Info: [44842]: Compilation successfully completed.
+# Info: [44841]: Counter Inferencing === Detected : 2, Inferred (Modgen/Selcounter/AddSub) : 2 (2 / 0 / 0), AcrossDH (Merged/Not-Merged) : (0 / 0), Not-Inferred (Acrossdh/Attempted) : (0 / 0), Local Vars : 0 ===
+# Info: [44835]: Total CPU time taken for compilation: 0.0 secs.
+# Info: [44856]: Total lines of RTL compiled: 470.
+# Info: [44513]: Overall running time 1.0 secs.
+# Info: [641]: Current working directory: /home/dchopra/proj_two/uw_tmp/.
+# Info: [644]: Finished compiling design.
+# Info: -- Saving the design database in uw_tmp/kirsch_gate.xdb
+# Info: [3026]: Writing file: uw_tmp/kirsch_gate.vhd.
+# Info: Info, Command 'auto_write' finished successfully
+# Info: [641]: Current working directory: /home/dchopra/proj_two/uw_tmp/.
+# Info: [4552]: 3 Instances are flattened in hierarchical block .work.kirsch.main.
+# Info: [15002]: Optimizing design view:.work.kirsch.main
+# Warning: [1621]: Port debug_led_red(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(4) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(5) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(6) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(7) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(8) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(9) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(10) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(11) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(12) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(13) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(14) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(15) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(16) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(17) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(4) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(5) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Info: [12041]: -- Running timing characterization...
+# Info: [15002]: Optimizing design view:.work.kirsch.main
+# Warning: [1621]: Port debug_led_red(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(4) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(5) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(6) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(7) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(8) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(9) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(10) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(11) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(12) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(13) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(14) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(15) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(16) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_red(17) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(4) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_led_grn(5) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_0(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_1(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_2(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_3(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_4(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port debug_num_5(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Info: -- Saving the design database in /home/dchopra/proj_two/uw_tmp/kirsch.xdb
+# Info: [3026]: Writing file: /home/dchopra/proj_two/uw_tmp/kirsch.edf.
+# Info: -- Writing file /home/dchopra/proj_two/uw_tmp/kirsch.tcl
+# Info: exq_pr_compile_project gen_vcf kirsch 1
+# Info: [644]: Finished synthesizing design.
+# Info: [11019]: Total CPU time taken for synthesis: 7.5 secs.
+# Info: [11020]: Overall running time 7.7 secs.
+# Info: /home/dchopra/proj_two/uw_tmp/precision_tech.sdc
+# Info: -- Saving the design database in uw_tmp/kirsch_logic.xdb
+# Info: [3026]: Writing file: uw_tmp/kirsch_logic.vhd.
+# Info: Info, Command 'auto_write' finished successfully
+# Info: i_clock
+# Info: -- Saving the design database in uw_tmp/kirsch_logic.xdb
+# Info: [3026]: Writing file: uw_tmp/kirsch_logic.v.
+# Info: Info, Command 'auto_write' finished successfully
+# Info: *** logic synthesis succeeded ***

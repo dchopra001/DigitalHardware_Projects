@@ -1,0 +1,10 @@
+8:-out_dir
+39:/home/dchopra/proj_two/uw_tmp//rtlc.out
+10:-pipe_flow
+4:-vhf
+50:/home/dchopra/proj_two/uw_tmp//hdlAnalyze_vhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+39:/home/dchopra/proj_two/uw_tmp//.jaguarc
+54:+incdir+/home/dchopra/proj_two+/home/dchopra/proj_two/
+17:+define+synthesis

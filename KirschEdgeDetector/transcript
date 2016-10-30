@@ -1,0 +1,71 @@
+# //  ModelSim SE-64 10.1 Dec  5 2011 Linux 2.6.18-371.9.1.el5
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -do uw_tmp/uw-sim.tcl -lib work-msim -t 1ns -wlf uw_tmp/vsim.wlf kirsch_tb(main) 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.kirsch_synth_pkg(body)
+# Loading work.file_pkg(body)
+# Loading work.string_pkg(body)
+# Loading work.kirsch_unsynth_pkg(body)
+# Loading work.kirsch_tb(main)#1
+# Loading work.kirsch(main)#1
+# Loading work.mem(main)#1
+# do uw_tmp/uw-sim.tcl 
+# ** Note: XXXXXXXXXXXX reading image from tests/test1.txt
+#    Time: 0 ns  Iteration: 0  Instance: /kirsch_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /kirsch_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /kirsch_tb/uut
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /kirsch_tb/uut/Generate_mem(2)/u_mem0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /kirsch_tb/uut/Generate_mem(1)/u_mem0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /kirsch_tb/uut/Generate_mem(0)/u_mem0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /kirsch_tb/uut/Generate_mem(2)/u_mem0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /kirsch_tb/uut/Generate_mem(1)/u_mem0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /kirsch_tb/uut/Generate_mem(0)/u_mem0
+# ** Note: latency begin wait
+#    Time: 41295 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41310 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41330 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41350 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41370 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41390 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41410 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41430 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41450 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41470 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency waiting
+#    Time: 41490 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: latency = 9
+#    Time: 41490 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: XXXXXXXXXXXX sent image
+#    Time: 5242995 ns  Iteration: 0  Instance: /kirsch_tb
+# ** Note: XXXXXXXXXXXX got image
+#    Time: 5243170 ns  Iteration: 1  Instance: /kirsch_tb
+# ** Note: XXXXXXXXXXXX PLEASE HIT CTRL-C TO EXIT THE SIMULATOR
+#    Time: 5243170 ns  Iteration: 1  Instance: /kirsch_tb

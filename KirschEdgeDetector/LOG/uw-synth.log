@@ -1,0 +1,8 @@
+INFO: Starting PRECISION_RTL for logic synthesis
+precision: Executing on platform: CentOS release 5.11 (Final) Kernel \r on an \m  Linux ecelinux5.uwaterloo.ca 2.6.18-398.el5 #1 SMP Tue Sep 16 20:50:52 EDT 2014 x86_64 x86_64 x86_64 GNU/Linux 
+precision: Setting MGC_HOME to /opt/Precision_Synthesis_2008a.47/Mgc_home ...
+Note: Defaulting to use the Next Generation GUI.
+Error: Unable to checkout license feature: psccore
+Error: Unable to checkout app licenses.
+Error: Failed product configuration check.
+ERROR: Failure when running `precision -shell -file uw_tmp/uw-gate-synth-precision_rtl.tcl'

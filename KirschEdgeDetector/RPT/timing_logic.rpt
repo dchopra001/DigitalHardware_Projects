@@ -1,0 +1,24 @@
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)
+	------                  ----------                            -----------------
+	ClockDomain0            i_clock                               4.977 (200.924 MHz)  
+
+Setup Slack Path Summary
+
+               Data                                                            Data
+       Setup   Path   Source    Dest.                                          End 
+Index  Slack   Delay   Clock    Clock    Data Start Pin      Data End Pin      Edge
+-----  ------  -----  -------  -------  ----------------  -------------------  ----
+  1    -2.977  4.770  i_clock  i_clock  reg_r16(0)/clk    reg_x_r11(0)/datain  Rise
+  2    -2.977  4.770  i_clock  i_clock  reg_r16(1)/clk    reg_x_r11(0)/datain  Rise
+  3    -2.977  4.770  i_clock  i_clock  reg_x_r3(1)/clk   reg_r15(0)/datain    Rise
+  4    -2.977  4.770  i_clock  i_clock  reg_x_r11(0)/clk  reg_r18(0)/datain    Rise
+  5    -2.977  4.770  i_clock  i_clock  reg_x_r11(1)/clk  reg_r18(0)/datain    Rise
+
+-- Device: Altera - Stratix II : EP2S15F484C : 5
+-- CTE report summary..
+                  CTE Report Summary
+
+Analyzing setup constraint violations 
+End CTE Report Summary ..... CPU Time Used: 0 sec.
