@@ -1,0 +1,10 @@
+8:-out_dir
+47:/home/dchopra/ece327/lab1/lab1/uw_tmp//rtlc.out
+10:-pipe_flow
+4:-vhf
+58:/home/dchopra/ece327/lab1/lab1/uw_tmp//hdlAnalyze_vhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+47:/home/dchopra/ece327/lab1/lab1/uw_tmp//.jaguarc
+70:+incdir+/home/dchopra/ece327/lab1/lab1+/home/dchopra/ece327/lab1/lab1/
+17:+define+synthesis

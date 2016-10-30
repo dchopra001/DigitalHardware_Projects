@@ -1,0 +1,11 @@
+10:-pipe_flow
+6:-quiet
+8:-out_dir
+36:P:/ece327/lab2/lab2/uw_tmp//rtlc.out
+4:-vhf
+55:P:/ece327/lab2/lab2/uw_tmp//hdlAnalyze_techcellvhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+36:P:/ece327/lab2/lab2/uw_tmp//.jaguarc
+48:+incdir+P:/ece327/lab2/lab2+P:/ece327/lab2/lab2/
+17:+define+synthesis

@@ -1,0 +1,191 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/dchopra/ece327/lab1/lab1
+T_opt
+V@WL12Bfb[X3NY_W3_LR8K2
+04 7 4 work add2_tb main 1
+=1-14dae9740818-53752680-777d-145
+o-quiet -auto_acc_if_foreign -work work-msim
+n@_opt
+OL;O;10.1;51
+Eadd2
+Z1 w1400184921
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/dchopra/ece327/lab1/lab1
+Z5 8add2.vhd
+Z6 Fadd2.vhd
+l0
+L5
+VV:XG?lR9M26:Da8=81F7>1
+Z7 OL;C;10.1;51
+31
+Z8 !s108 1400186489.767259
+Z9 !s90 -93|+acc|-work|work-msim|sum.vhd|carry.vhd|fulladder.vhd|add2.vhd|add2_tb.vhd|
+Z10 !s107 add2_tb.vhd|add2.vhd|fulladder.vhd|carry.vhd|sum.vhd|
+Z11 o-93 +acc -work work-msim
+Z12 tExplicit 1
+!s100 L6L38<VJ;<@mk87GlF58B2
+!i10b 1
+Amain
+Z13 DEx4 work 9 fulladder 0 22 d3^9gH@iPznek6a<H[j`63
+R2
+R3
+Z14 DEx4 work 4 add2 0 22 V:XG?lR9M26:Da8=81F7>1
+l15
+L13
+V4Eg;f;_0YB`CH1BYde46a2
+!s100 4ENP2A;l^]e7;H`oTii=h1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Eadd2_tb
+Z15 w1400186480
+R2
+R3
+R4
+Z16 8add2_tb.vhd
+Z17 Fadd2_tb.vhd
+l0
+L4
+VIER^OLA54M6Tgh=OXX55[0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 Y:bVSD=F=9gPZB1FGk^Mj1
+!i10b 1
+Amain
+R14
+R2
+R3
+DEx4 work 7 add2_tb 0 22 IER^OLA54M6Tgh=OXX55[0
+l12
+L7
+VilonLj?:aP36Uk?k5^_V=1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 <=eRRPbkBF4K3<0jOV2H]2
+!i10b 1
+Ecarry
+Z18 w1400179415
+R2
+R3
+R4
+Z19 8carry.vhd
+Z20 Fcarry.vhd
+l0
+L5
+VWDdZ[jz>il7ABVi^CO1Ge1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 bcRoYCkS4`eDD2TWn19I:0
+!i10b 1
+Amain
+R2
+R3
+Z21 DEx4 work 5 carry 0 22 WDdZ[jz>il7ABVi^CO1Ge1
+l12
+L11
+VChJMGUVGINfD0PmL]Km5[3
+!s100 :zh3hACiCdNlH<4Z1jYOM1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Efulladder
+Z22 w1400180162
+R2
+R3
+R4
+Z23 8fulladder.vhd
+Z24 Ffulladder.vhd
+l0
+L4
+Vd3^9gH@iPznek6a<H[j`63
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 XM]QVVS=B@_CV6<Lm5H;i2
+!i10b 1
+Amain
+R21
+Z25 DEx4 work 3 sum 0 22 aHIjSJFUeY]]>h18BV78?1
+R2
+R3
+R13
+l11
+L10
+VZjZjlcP`oJ1WHgMz61nH<0
+!s100 5OHi8:Xn?XV5ZocJ3Z>Je0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Esum
+Z26 w1400179423
+R2
+R3
+R4
+Z27 8sum.vhd
+Z28 Fsum.vhd
+l0
+L4
+VaHIjSJFUeY]]>h18BV78?1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 8:ao_5=Q8kN?HG>]dHKC52
+!i10b 1
+Amain
+R2
+R3
+R25
+l11
+L10
+V6=8DMIBo@=zG^`[cVQkeL3
+!s100 93XoM:Xjh>h051lozH2fZ2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!i10b 1
